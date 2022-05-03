@@ -8,6 +8,8 @@
     --prime-color: hsl(170,100%,26%);
     --headline:hsl(210, 11%, 15%);
     --paragraph: hsl(210, 9%, 31%);
+    --brand-beige:#DCE9E2
+
 }
 
 body {
@@ -22,7 +24,7 @@ h1{
 }
 
 h3{
-    font-size: 4.8rem;
+    font-size: 2.8rem;
 }
 
 h4{
@@ -59,8 +61,7 @@ button{
     justify-content: center;
     gap: 1.6rem;
 
-    margin-right: auto;
-    margin-left:auto ;
+    margin-inline: auto;
 
     
 }
@@ -72,4 +73,31 @@ header{
     margin-top: 4.1rem;
     padding-right: 2rem;
     padding-left: 2rem;
+}
+
+.stats{
+    width: 32.7rem;
+    height: 47rem;
+
+    margin-inline: auto;
+
+    background-color: var(--brand-beige);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:6rem;
+}
+
+.stat h3{
+    font-size: 4.8rem;
+    color: var(--headline);
+    line-height: 130%;
+
+    margin-bottom: 0.4rem;
+}
+
+.stat p{
+    margin:0;
+    font-size: 1.6rem;
+    text-align: center;
 }
